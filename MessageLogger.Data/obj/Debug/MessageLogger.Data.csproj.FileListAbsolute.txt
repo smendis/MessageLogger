@@ -1,0 +1,9 @@
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Data\bin\Debug\MessageLogger.Data.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Data\bin\Debug\MessageLogger.Data.pdb
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Data\obj\Debug\MessageLogger.Data.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Data\obj\Debug\MessageLogger.Data.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Data\bin\Debug\MessageLogger.Data.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Data\bin\Debug\MessageLogger.Data.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Data\obj\Debug\MessageLogger.Data.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Data\obj\Debug\MessageLogger.Data.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Data\obj\Debug\MessageLogger.Data.csprojResolveAssemblyReference.cache

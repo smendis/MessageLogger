@@ -1,0 +1,37 @@
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Data.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Repository.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\EntityFramework.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Data.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Repository.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\bin\Debug\EntityFramework.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Core.Tests\obj\Debug\MessageLogger.Core.Tests.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Data.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Repository.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\EntityFramework.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Core.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Data.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\MessageLogger.Repository.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\EntityFramework.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Castle.Core.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Moq.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Castle.Core.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Core.Tests\bin\Debug\Moq.xml

@@ -1,0 +1,24 @@
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.dll.config
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Data.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Data.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.dll.config
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Repository.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Data.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\MessageLogger.Data.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.csprojResolveAssemblyReference.cache
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Repository\obj\Debug\MessageLogger.Repository.pdb

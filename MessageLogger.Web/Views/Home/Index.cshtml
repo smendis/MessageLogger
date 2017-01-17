@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron">
+    <h1>Web Client</h1>
+    <p class="lead">Allow clients to register and send log messages to the Message Logger API.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Register</h2>
+        <p>
+            Allow clients to register their applications before using the api.
+        </p>
+        <p>@Html.ActionLink("Learn more >>", "Index", "Register", null, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Authenticate</h2>
+        <p>Authenticate clients before allowing them to log message as per the API requirements.</p>
+        <p>@Html.ActionLink("Learn more >>", "Authenticate", "Logger", null, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Log</h2>
+        <p>Sending log messages to the service after authenticating the clients.</p>
+        <p>@Html.ActionLink("Learn more >>", "Index", "Logger", null, new { @class = "btn btn-default" })</p>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\csc.exe
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\vbc.exe
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.dll.config
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Antlr3.Runtime.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Newtonsoft.Json.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Helpers.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Mvc.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Optimization.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Razor.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\WebGrease.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Helpers.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Mvc.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Optimization.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.Razor.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Antlr3.Runtime.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\Newtonsoft.Json.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\EntityFramework.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\EntityFramework.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\csc.exe
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\vbc.exe
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.dll.config
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\MessageLogger.Web.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Antlr3.Runtime.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\EntityFramework.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Newtonsoft.Json.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Helpers.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Mvc.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Optimization.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Razor.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\WebGrease.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\EntityFramework.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Helpers.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Mvc.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Optimization.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.Razor.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Antlr3.Runtime.pdb
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\bin\Newtonsoft.Json.xml
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.csprojResolveAssemblyReference.cache
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.dll
+C:\Users\sonali\Desktop\Back up before merging with dishan\MessageLogger_update\MessageLogger\MessageLogger.Web\obj\Debug\MessageLogger.Web.pdb

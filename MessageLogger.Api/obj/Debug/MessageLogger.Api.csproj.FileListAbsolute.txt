@@ -1,0 +1,132 @@
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.csprojResolveAssemblyReference.cache
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\csc.exe
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\vbc.exe
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.dll.config
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.pdb
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Antlr3.Runtime.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Core.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Data.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Newtonsoft.Json.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Helpers.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Http.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Mvc.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Optimization.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Razor.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\WebGrease.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Core.pdb
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Data.pdb
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Newtonsoft.Json.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Helpers.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Http.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Mvc.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Optimization.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.Razor.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Razor.xml
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Antlr3.Runtime.pdb
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.dll
+C:\Users\sonali\documents\visual studio 2015\Projects\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Repository.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\EntityFramework.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\MessageLogger.Repository.pdb
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\EntityFramework.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.Common.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\WebActivatorEx.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.Common.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.WebHost.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Microsoft.AspNet.WebApi.Versioning.dll
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\Microsoft.AspNet.WebApi.Versioning.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\csc.exe
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\vbc.exe
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.dll.config
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Api.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Antlr3.Runtime.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Core.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Data.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Microsoft.AspNet.WebApi.Versioning.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Newtonsoft.Json.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.Common.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Helpers.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Http.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Mvc.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Optimization.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Razor.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\WebActivatorEx.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\WebGrease.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Repository.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\EntityFramework.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Core.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Data.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Microsoft.AspNet.WebApi.Versioning.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.Common.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Ninject.Web.WebApi.WebHost.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Newtonsoft.Json.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Helpers.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Http.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Mvc.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Optimization.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.Razor.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\System.Web.WebPages.Razor.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\Antlr3.Runtime.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\MessageLogger.Repository.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\EntityFramework.xml
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.csprojResolveAssemblyReference.cache
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.dll
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\obj\Debug\MessageLogger.Api.pdb
+C:\Users\dishanm\Desktop\MessageLogger\MessageLogger.Api\bin\XmlDocument.xml
+C:\Users\sonali\Documents\Visual Studio 2015\Projects\MessageLogger\MessageLogger.Api\bin\XmlDocument.xml

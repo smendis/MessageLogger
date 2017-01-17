@@ -1,0 +1,57 @@
+﻿@using MessageLogger.Web.Models
+
+@model MessageLogger.Web.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register Endpoint - Response</h2>
+<p>Response received by the endpoint after calling register.</p>
+
+<div class="top-margin">
+    @if (!string.IsNullOrEmpty(Model.Error))
+    {
+        <div class="alert alert-danger">
+            <strong>Error!</strong> @Model.Error
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong> Ok(200) Http response received
+        </div>
+    }
+</div>
+<div class="top-margin">
+    @if (Model.Result != null)
+    {
+        <h3>Response</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Application ID</td>
+                    <td>@Model.Result.application_id</td>
+                </tr>
+                <tr>
+                    <td>Application Display Name</td>
+                    <td>@Model.Result.display_name</td>
+                </tr>
+                <tr>
+                    <td>Application Secret</td>
+                    <td>@Model.Result.secret</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
+
+<div>
+    @Html.ActionLink("Back to Register", "Index") | @Html.ActionLink("Back to Authenticate", "Authenticate", "Logger")
+</div>

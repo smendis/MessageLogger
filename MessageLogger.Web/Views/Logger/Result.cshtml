@@ -1,0 +1,51 @@
+﻿@model MessageLogger.Web.Models.LogViewModel
+
+@{
+    ViewBag.Title = "Log";
+}
+
+<h2>Logger Endpoint - Log</h2>
+<p>Response received by the endpoint after calling log.</p>
+
+<div class="top-margin">
+    @if (!string.IsNullOrEmpty(Model.Error))
+    {
+        <div class="alert alert-danger">
+            <strong>Error!</strong> @Model.Error
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong> Ok(200) Http response received
+        </div>
+    }
+</div>
+<div class="top-margin">
+    @if (Model.Result != null)
+    {
+        <h3>Response</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Success</td>
+                    <td>@Model.Result.success</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
+
+<div>
+    @Html.ActionLink("Back to Log", "Index") | @Html.ActionLink("Back to Authenticate", "Authenticate")
+</div>
+
+
+
+

@@ -1,0 +1,48 @@
+﻿@model MessageLogger.Web.Models.AuthViewModel
+
+@{
+    ViewBag.Title = "Authenticate";
+}
+<h2>Logger Endpoint - Authenticate</h2>
+<p>Response received by the endpoint after calling auth.</p>
+
+<div class="top-margin">
+    @if (!string.IsNullOrEmpty(Model.Error))
+    {
+        <div class="alert alert-danger">
+            <strong>Error!</strong> @Model.Error
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong> Ok(200) Http response received
+        </div>
+    }
+</div>
+<div class="top-margin">
+    @if (Model.Result != null)
+    {
+        <h3>Response</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Access Token</td>
+                    <td>@Model.Result.access_token</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
+
+<div>
+    @Html.ActionLink("Back to Log", "Index") | @Html.ActionLink("Back to Authenticate", "Authenticate")
+</div>
+
+
