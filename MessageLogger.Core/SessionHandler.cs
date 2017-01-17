@@ -14,6 +14,7 @@ namespace MessageLogger.Core
     public class SessionHandler : ISessionHandler
     {
         ISettingsRepository settingsRepository;
+        readonly object syncLock = new object();
 
         public SessionHandler(ISettingsRepository settings_repository)
         {
@@ -22,25 +23,28 @@ namespace MessageLogger.Core
 
         public void CreateOrExtendSession(string key)
         {
-            if (HttpRuntime.Cache[key] == null)//create session
+            lock (syncLock)
             {
-                HttpRuntime.Cache.Add(key,
-               true,
-               null,
-               DateTime.Now.AddMinutes(SessionLifetime),
-               Cache.NoSlidingExpiration,
-               CacheItemPriority.High,
-               null);
-            }
-            else //extend session
-            {
-                HttpRuntime.Cache.Insert(key,
-               true,
-               null,
-               DateTime.Now.AddMinutes(SessionLifetime),
-               Cache.NoSlidingExpiration,
-               CacheItemPriority.High,
-               null);
+                if (HttpRuntime.Cache[key] == null)//create session
+                {
+                    HttpRuntime.Cache.Add(key,
+                   true,
+                   null,
+                   DateTime.Now.AddMinutes(SessionLifetime),
+                   Cache.NoSlidingExpiration,
+                   CacheItemPriority.High,
+                   null);
+                }
+                else //extend session
+                {
+                    HttpRuntime.Cache.Insert(key,
+                   true,
+                   null,
+                   DateTime.Now.AddMinutes(SessionLifetime),
+                   Cache.NoSlidingExpiration,
+                   CacheItemPriority.High,
+                   null);
+                }
             }
         }
 
@@ -63,11 +67,16 @@ namespace MessageLogger.Core
         {
             get
             {
-                if (HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME] == null)
+                int lifetime = 0;
+                lock (syncLock)
                 {
-                    HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME] = settingsRepository.GetSessionLifetime();
+                    if (HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME] == null)
+                    {
+                        HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME] = settingsRepository.GetSessionLifetime();
+                    }
+                    lifetime = (int)HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME];
                 }
-                return (int)HttpRuntime.Cache[ApplicationConstants.SESSION_LIFETIME];
+                return lifetime;
             }
         }
         

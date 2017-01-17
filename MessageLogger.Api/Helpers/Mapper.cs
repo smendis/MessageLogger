@@ -26,6 +26,11 @@ namespace MessageLogger.Api.Helpers
             };
         }
 
+        /// <summary>
+        /// Maps RegistrationDto object to RegisterResponseModel object.
+        /// </summary>
+        /// <param name="dto">The RegistrationDto object to map.</param>
+        /// <returns></returns>
         public static RegisterResponseModel RegistrationDtoToRegisterResponseModel(RegistrationDto dto)
         {
             return new RegisterResponseModel

@@ -29,6 +29,8 @@ namespace MessageLogger.Api.Filters
         /// </summary>
         private int RateLimitWait = 5;
 
+        private readonly object syncLock = new object();
+
         [Inject]
         public IHandlerProvider provider { get; set; }
 
@@ -38,43 +40,46 @@ namespace MessageLogger.Api.Filters
             if (access_token != null)
             {
                 var key = GetCacheKey(access_token);
-                
-                //add a listner for request count
-                if (HttpRuntime.Cache[key] == null)
-                {
-                    HttpRuntime.Cache.Add(key,
-                        1,
-                        null,
-                        DateTime.Now.AddMinutes(1),
-                        Cache.NoSlidingExpiration,
-                        CacheItemPriority.High,
-                        null);
-                }
-                else
-                {
-                    //listner exists for request count
-                    var current_requests = (int)HttpRuntime.Cache[key];
-                    if(current_requests < RateLimit)
-                    {
-                        HttpRuntime.Cache.Insert(key,
-                       current_requests+1,
-                       null,
-                       DateTime.Now.AddMinutes(1),
-                       Cache.NoSlidingExpiration,
-                       CacheItemPriority.High,
-                       null);
-                    }
-                    else //hit rate limit, wait for another 5 minutes 
-                    {
-                        HttpRuntime.Cache.Insert(key,
-                       current_requests,
-                       null,
-                       DateTime.Now.AddMinutes(RateLimitWait),
-                       Cache.NoSlidingExpiration,
-                       CacheItemPriority.High,
-                       null);
 
-                        Forbidden(actionContext);
+                lock (syncLock)
+                {
+                    //add a listner for request count
+                    if (HttpRuntime.Cache[key] == null)
+                    {
+                        HttpRuntime.Cache.Add(key,
+                            1,
+                            null,
+                            DateTime.Now.AddMinutes(1),
+                            Cache.NoSlidingExpiration,
+                            CacheItemPriority.High,
+                            null);
+                    }
+                    else
+                    {
+                        //listner exists for request count
+                        var current_requests = (int)HttpRuntime.Cache[key];
+                        if (current_requests < RateLimit)
+                        {
+                            HttpRuntime.Cache.Insert(key,
+                           current_requests + 1,
+                           null,
+                           DateTime.Now.AddMinutes(1),
+                           Cache.NoSlidingExpiration,
+                           CacheItemPriority.High,
+                           null);
+                        }
+                        else //hit rate limit, wait for another 5 minutes 
+                        {
+                            HttpRuntime.Cache.Insert(key,
+                           current_requests,
+                           null,
+                           DateTime.Now.AddMinutes(RateLimitWait),
+                           Cache.NoSlidingExpiration,
+                           CacheItemPriority.High,
+                           null);
+
+                            Forbidden(actionContext);
+                        }
                     }
                 }
             }
