@@ -1,4 +1,5 @@
-﻿using MessageLogger.Api.Models;
+﻿using MessageLogger.Api.Helpers;
+using MessageLogger.Api.Models;
 using MessageLogger.Core;
 using MessageLogger.Core.Dto;
 using MessageLogger.Core.Interfaces;
@@ -31,7 +32,7 @@ namespace MessageLogger.Api.Controllers
         [HttpPost]
         [Route("v{version:apiVersion}/register")]
         [Route("register")]
-        [ResponseType(typeof(RegistrationDto))]
+        [ResponseType(typeof(RegisterResponseModel))]
         public IHttpActionResult Register([FromBody]RegisterRequestModel model)
         {
             var display_name = model.display_name;
@@ -42,8 +43,9 @@ namespace MessageLogger.Api.Controllers
             if (appHandler.CheckIfAppExists(display_name))
                 return BadRequest();
 
-            var registeredApp = appHandler.RegisterApp(display_name);
-            return Ok(registeredApp);
+            var dto = appHandler.RegisterApp(display_name);
+            var response = Mapper.RegistrationDtoToRegisterResponseModel(dto);
+            return Ok(response);
         }
     }
 }

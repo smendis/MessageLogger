@@ -1,4 +1,5 @@
 ﻿using MessageLogger.Api.Models;
+using MessageLogger.Core.Dto;
 using MessageLogger.Data;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,16 @@ namespace MessageLogger.Api.Helpers
                 logger = model.logger,
                 level = model.level,
                 message = model.message
+            };
+        }
+
+        public static RegisterResponseModel RegistrationDtoToRegisterResponseModel(RegistrationDto dto)
+        {
+            return new RegisterResponseModel
+            {
+                application_id = dto.application_id,
+                display_name = dto.display_name,
+                secret = dto.secret
             };
         }
     }

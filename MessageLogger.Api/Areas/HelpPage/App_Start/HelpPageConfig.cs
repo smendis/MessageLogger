@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 using System.Reflection;
 using System.Web;
@@ -47,6 +48,11 @@ namespace MessageLogger.Api.Areas.HelpPage
                 {typeof(IEnumerable<string>), new string[]{"sample 1", "sample 2"}}
 
             });
+
+
+            //added to remove the default sample error message for media type 'application/x-www-form-urlencoded' and to remove xml sample
+            config.Formatters.Clear();
+            config.Formatters.Add(new JsonMediaTypeFormatter());
 
             // Extend the following to provide factories for types not handled automatically (those lacking parameterless
             // constructors) or for which you prefer to use non-default property values. Line below provides a fallback

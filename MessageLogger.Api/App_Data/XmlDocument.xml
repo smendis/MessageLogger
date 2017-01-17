@@ -592,5 +592,26 @@
             Up to 32 characters representing the applications’ name.
             </summary>
         </member>
+        <member name="T:MessageLogger.Api.Models.RegisterResponseModel">
+            <summary>
+            The response to a register request.
+            </summary>
+        </member>
+        <member name="P:MessageLogger.Api.Models.RegisterResponseModel.application_id">
+             <summary>
+             The 32 character id for which to create the token.
+             </summary>
+            
+        </member>
+        <member name="P:MessageLogger.Api.Models.RegisterResponseModel.display_name">
+            <summary>
+            Up to 32 characters representing the applications name.
+            </summary>
+        </member>
+        <member name="P:MessageLogger.Api.Models.RegisterResponseModel.secret">
+            <summary>
+            The 25 character secret for which to create the token.
+            </summary>
+        </member>
     </members>
 </doc>

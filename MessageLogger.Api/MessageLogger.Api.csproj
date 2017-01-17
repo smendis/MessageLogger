@@ -199,6 +199,7 @@
     <Compile Include="Models\LogRequestModel.cs" />
     <Compile Include="Models\LogResponseModel.cs" />
     <Compile Include="Models\RegisterRequestModel.cs" />
+    <Compile Include="Models\RegisterResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
