@@ -32,7 +32,7 @@ namespace MessageLogger.Api.Helpers
             {
                 application_id = dto.application_id,
                 display_name = dto.display_name,
-                secret = dto.secret
+                application_secret = dto.secret
             };
         }
     }

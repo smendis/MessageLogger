@@ -608,9 +608,9 @@
             Up to 32 characters representing the applications name.
             </summary>
         </member>
-        <member name="P:MessageLogger.Api.Models.RegisterResponseModel.secret">
+        <member name="P:MessageLogger.Api.Models.RegisterResponseModel.application_secret">
             <summary>
-            The 25 character secret for which to create the token.
+            The 32 character secret for which to create the token.
             </summary>
         </member>
     </members>
