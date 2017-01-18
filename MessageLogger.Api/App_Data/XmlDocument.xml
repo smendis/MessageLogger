@@ -537,6 +537,13 @@
             <param name="model">The LogRequestModel object to map.</param>
             <returns>Mapped Log object</returns>
         </member>
+        <member name="M:MessageLogger.Api.Helpers.Mapper.RegistrationDtoToRegisterResponseModel(MessageLogger.Core.Dto.RegistrationDto)">
+            <summary>
+            Maps RegistrationDto object to RegisterResponseModel object.
+            </summary>
+            <param name="dto">The RegistrationDto object to map.</param>
+            <returns></returns>
+        </member>
         <member name="T:MessageLogger.Api.Models.AuthResponseModel">
             <summary>
             The Authentication response model.

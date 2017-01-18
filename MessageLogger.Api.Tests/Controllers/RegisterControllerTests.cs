@@ -40,7 +40,7 @@ namespace MessageLogger.Api.Tests.Controllers
             };
             controller.ModelState.Clear();
             IHttpActionResult actionResult = controller.Register(model);
-            var result = actionResult as OkNegotiatedContentResult<RegistrationDto>;
+            var result = actionResult as OkNegotiatedContentResult<RegisterResponseModel>;
 
             Assert.IsNotNull(result);
             Assert.IsNotNull(result.Content);

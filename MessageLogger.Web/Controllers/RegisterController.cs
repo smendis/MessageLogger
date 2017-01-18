@@ -1,5 +1,6 @@
 ﻿using MessageLogger.Web.Helpers;
 using MessageLogger.Web.Models;
+using MessageLogger.Web.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +10,16 @@ using System.Web.Mvc;
 
 namespace MessageLogger.Web.Controllers
 {
-    public class RegisterController : BaseController
+    public class RegisterController : Controller
     {
-        public RegisterController()
-        {
 
+        private IRegisterWebService service;
+
+        public RegisterController(IRegisterWebService _service)
+        {
+            service = _service;
         }
+
         [HttpGet]
         public ActionResult Index()
         {
@@ -30,7 +35,7 @@ namespace MessageLogger.Web.Controllers
                 var result = new RegisterViewModel();
                 try
                 {
-                    var application = await base.PostWebServiceObject<RegisterResultModel>("register", null, model);
+                    var application = await service.Register(model);
                     result.Result = application;
                     TempData["model"] = result;
                     return RedirectToAction("Result");

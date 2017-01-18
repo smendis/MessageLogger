@@ -32,7 +32,6 @@ namespace MessageLogger.Api.Tests.Controllers
             IHttpActionResult actionResult = null;
 
             controller.ModelState.AddModelError("", "force error");
-            var result = controller.Log(new LogRequestModel());
             Task.Run(async () =>
             {
                 actionResult = await controller.Log(new LogRequestModel());
@@ -50,7 +49,6 @@ namespace MessageLogger.Api.Tests.Controllers
             IHttpActionResult actionResult = null;
 
             controller.ModelState.Clear();
-            var result = controller.Log(new LogRequestModel());
             Task.Run(async () =>
             {
                 actionResult = await controller.Log(new LogRequestModel());

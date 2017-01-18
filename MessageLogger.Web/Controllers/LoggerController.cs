@@ -1,5 +1,6 @@
 ﻿using MessageLogger.Web.Helpers;
 using MessageLogger.Web.Models;
+using MessageLogger.Web.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,15 @@ using System.Web.Mvc;
 
 namespace MessageLogger.Web.Controllers
 {
-    public class LoggerController : BaseController
+    public class LoggerController : Controller
     {
+        private ILogWebService service;
+
+        public LoggerController(ILogWebService _service)
+        {
+            service = _service;
+        }
+
         [HttpGet]
         public ActionResult Index()
         {
@@ -30,10 +38,9 @@ namespace MessageLogger.Web.Controllers
                     var access_token = HttpContext.Session[model.application_id];
                     if (access_token == null)
                         throw new Exception("Please authenticate before using the logging.");
-
-                    var encorded_token = Base64Utility.Encode(access_token.ToString());
-                    var token = await base.PostWebServiceObject<LogResultModel>("log", encorded_token, model);
-                    result.Result = token;
+                    
+                    var success = await service.Log(access_token.ToString(), model);
+                    result.Result = success;
 
                     TempData["model"] = result;
                     return RedirectToAction("Result");
@@ -74,8 +81,7 @@ namespace MessageLogger.Web.Controllers
                 try
                 {
                     var auth_credentials = model.GetAuthorizationHeaderValue();
-                    var encorded_auth_credentials = Base64Utility.Encode(auth_credentials);
-                    var token = await base.PostWebServiceObject<AuthResultModel>("auth", encorded_auth_credentials, null);
+                    var token = await service.Authenticate(auth_credentials);
                     result.Result = token;
 
                     //create session

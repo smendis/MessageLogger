@@ -9,6 +9,6 @@ namespace MessageLogger.Web.Models
     {
         public string application_id { get; set; }
         public string display_name { get; set; }
-        public string secret { get; set; }
+        public string application_secret { get; set; }
     }
 }
