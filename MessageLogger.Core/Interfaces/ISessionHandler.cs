@@ -12,5 +12,7 @@ namespace MessageLogger.Core.Interfaces
         string GetSessionTokenKey(string access_token);
         bool IsSessionExists(string key);
         void CreateOrExtendSession(string key);
+        bool TryCreateSession(string application_id, out string token);
+        bool TryExtendSession(string token);
     }
 }

@@ -57,17 +57,9 @@ namespace MessageLogger.Api.Controllers
             }
 
             //ckeck for active sessions
-            var aliveKey = sessionHandler.GetSessionAliveKey(application_id);
-            if (!sessionHandler.IsSessionExists(aliveKey))//has no valid session 
+            string access_token;
+            if (sessionHandler.TryCreateSession(application_id, out access_token))
             {
-                //create access token
-                var access_token = Guid.NewGuid().ToString();
-
-                //create session
-                var tokenKey = sessionHandler.GetSessionTokenKey(access_token);
-                sessionHandler.CreateOrExtendSession(tokenKey);
-                sessionHandler.CreateOrExtendSession(aliveKey);
-
                 Trace.TraceInformation("New session created for application_id:" + application_id);
                 
                 //send access_token

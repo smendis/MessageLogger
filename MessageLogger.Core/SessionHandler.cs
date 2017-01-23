@@ -20,7 +20,6 @@ namespace MessageLogger.Core
         {
             settingsRepository = settings_repository;
         }
-
         public void CreateOrExtendSession(string key)
         {
             lock (syncLock)
@@ -45,6 +44,77 @@ namespace MessageLogger.Core
                    CacheItemPriority.High,
                    null);
                 }
+            }
+        }
+
+        public bool TryCreateSession(string application_id, out string token)
+        {
+            bool success = false;
+
+            token = Guid.NewGuid().ToString();
+            var aliveToken = GetSessionAliveKey(application_id);
+            var sessionToken = GetSessionTokenKey(token);
+
+            lock (syncLock)
+            {
+                if(HttpRuntime.Cache[aliveToken] == null)
+                {
+                    //register access token
+                    AddOrUpdateCache(sessionToken, application_id, true);
+                    //register application_id as alive
+                    AddOrUpdateCache(aliveToken, true, true);
+
+                    success = true;
+                }
+                else
+                {
+                    token = null;
+                }               
+            }
+
+            return success;
+        }
+
+        public bool TryExtendSession(string access_token)
+        {
+            bool success = false;
+            var sessionToken = GetSessionTokenKey(access_token);
+            lock (syncLock)
+            {
+                if(HttpRuntime.Cache[sessionToken] != null)
+                {
+                    string application_id = HttpRuntime.Cache[sessionToken].ToString();
+                    string aliveToken = GetSessionAliveKey(application_id);
+                    //extend access token
+                    AddOrUpdateCache(sessionToken, application_id, false);
+                    //extend application_id as alive
+                    AddOrUpdateCache(aliveToken, true, false);
+                    success = true;
+                }
+            }
+            return true;
+        }
+        public void AddOrUpdateCache(string key, object value, bool isNew)
+        {
+            if (isNew)
+            {
+                HttpRuntime.Cache.Add(key,
+                   value,
+                   null,
+                   DateTime.Now.AddMinutes(SessionLifetime),
+                   Cache.NoSlidingExpiration,
+                   CacheItemPriority.High,
+                   null);
+            }
+            else
+            {
+                HttpRuntime.Cache.Insert(key,
+                   value,
+                   null,
+                   DateTime.Now.AddMinutes(SessionLifetime),
+                   Cache.NoSlidingExpiration,
+                   CacheItemPriority.High,
+                   null);
             }
         }
 

@@ -29,5 +29,18 @@ namespace MessageLogger.Api.Tests.mocks
         {
             return true;
         }
+
+        public bool TryCreateSession(string application_id, out string token)
+        {
+            HttpRuntime.Cache[application_id] = true;
+            token = "";
+            return true;
+        }
+
+        public bool TryExtendSession(string token)
+        {
+            HttpRuntime.Cache[token] = true;
+            return true;
+        }
     }
 }

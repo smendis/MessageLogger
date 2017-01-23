@@ -29,5 +29,16 @@ namespace MessageLogger.Api.Tests.mocks
         {
             return false;
         }
+
+        public bool TryCreateSession(string application_id, out string token)
+        {
+            token = "";
+            return true;
+        }
+
+        public bool TryExtendSession(string token)
+        {
+            return true;
+        }
     }
 }

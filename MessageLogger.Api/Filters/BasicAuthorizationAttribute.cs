@@ -31,14 +31,9 @@ namespace MessageLogger.Api.Filters
             string accessToken = GetAccessToken(actionContext);
             if(accessToken != null)
             {
-                var key = sessionHandler.GetSessionTokenKey(accessToken);
-                if (sessionHandler.IsSessionExists(key))//has a valid session 
+                if (!sessionHandler.TryExtendSession(accessToken))
                 {
-                    //extend session
-                    sessionHandler.CreateOrExtendSession(key);
-                }
-                else
-                {
+                    //no valid session found
                     Forbidden(actionContext);
                 }
             }
